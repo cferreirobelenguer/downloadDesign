@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300&display=swap');
+.home-container {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 38px 49px -35px rgba(110, 129, 181, 0.33);
+    height: auto;
+    padding: 110px 187px 110px 120px;
+    gap: 70px;
+}
+
+.home-container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+.home-container-header-title:nth-child(1) {
+    margin: 0;
+    color: #2B204F;
+    font-family: 'Mulish', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home-container-header-title:nth-child(2) {
+    margin: 0;
+    color: #2B204F;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.home-container-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap:24px;
+    align-items: start;
+}
+
+.home-container-buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.home-container-buttons-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.home-container-buttons-section-titleButton {
+    color: #2B204F;
+    font-family: 'Mulish', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    width: 100%;
+}
+
+.home-container-buttons-section-subtitleButton {
+    color: #2B204F;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    width: 100%;
+}
+
+.home-container-buttons-section-button {
+    border-radius: 5px;
+    background: #4154E8;
+    width: 179px;
+    height: 48px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-family: 'Mulish', sans-serif;
+}
+
+.home-container-buttons-types {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+a {
+    text-decoration: none;
+    color: #4154E8;
+}
+
+.link-color {
+    color: #4154E8;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media (min-width: 650px) {
+    .home-container-buttons {
+        display: flex;
+        flex-direction: row;
+        gap:130px;
+    }
+}
